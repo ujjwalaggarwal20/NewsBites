@@ -1,0 +1,36 @@
+.navsection{
+    padding-left: 0vh;
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    background-color: black;
+}
+.listnav{
+    justify-content: space-around;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left:2rem;
+     
+}
+.sections{
+    width: 10rem;
+    height: 6.5vh;
+    padding-top: 3.5vh;
+   font-size: 3vh;
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-type: none;
+    text-align: center;
+    margin: 1rem;
+}
+.sections:active{
+    background:whitesmoke;
+    color: black;
+    font-weight: 500;
+}
+.sectionLink{
+    text-decoration: none;
+    color: whitesmoke;
+}

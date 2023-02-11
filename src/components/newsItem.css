@@ -1,0 +1,53 @@
+.Card{
+    overflow: hidden;
+    box-shadow: 0 2vh 5vh ;
+    border-radius: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: ease-in;
+    transform: 200ms;
+    margin: 0;
+    height: 100%;
+}
+.CardImage{
+    height:auto;
+    width: 100%;
+    object-fit: cover;
+}
+.CardTitle{
+    padding: 0.5rem;
+}
+.CardDesp{
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+
+}
+.details{
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+.Card:hover{
+    transform: scale(1.02);
+}
+.button{
+    text-decoration: none;
+    text-align: center;
+    height: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: whitesmoke;
+    padding: 00.1rem;
+}
+.button:hover{
+ background-color: rgba(0, 0, 0, 0.711);
+ color: whitesmoke;
+ transform: scale(1.05);
+ border: none;
+ border-radius: 0.5rem;
+}

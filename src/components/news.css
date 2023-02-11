@@ -1,0 +1,19 @@
+.cardGrid{
+    margin: 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2rem;
+
+}
+
+h1.tophead{
+    text-align: center;
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+}
+.page button{
+    width: 5rem;
+}

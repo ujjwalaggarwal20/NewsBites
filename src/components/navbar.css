@@ -1,0 +1,89 @@
+.navbar{
+    padding-left: 0vh;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    align-items: flex-start;
+    background-color: black;
+    border-bottom: 3px solid whitesmoke;
+}
+.logo{
+    align-items: center;
+}
+.NB{
+    height:10vh;
+    width: auto;
+}
+.list{
+    justify-content: space-between;
+    width: 33%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin: 0;
+     
+}
+.Home{
+    width: 33%;
+    height: 6.5vh;
+    padding-top: 3.5vh;
+   font-size: 3vh;
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-type: none;
+    text-align: center;
+}
+.Section{
+    width: 33%;
+    height: 6.5vh;
+    padding-top: 3.5vh;
+   font-size: 3vh;
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-type: none;
+    text-align: center;
+}
+.About{
+    width: 33%;
+    height: 6.5vh;
+    padding-top: 3.5vh;
+   font-size: 3vh;
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-type: none;
+    text-align: center;
+}
+.ContactUs{
+    width: 33%;
+    height: 6.5vh;
+    padding-top: 3.5vh;
+   font-size: 3vh;
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-type: none;
+    text-align: center;
+}
+li:hover{
+    background:rgba(243, 241, 241, 0.099);
+}
+.Home:active{
+    background:whitesmoke;
+    color: black;
+    font-weight: 500;
+}
+.Section:active{
+    background:whitesmoke;
+    color: black;
+    font-weight: 500;
+}
+.About:active{
+    background:whitesmoke;
+    color: black;
+    font-weight: 500;
+}
+.ContactUs:active{
+    background:whitesmoke;
+    color: black;
+    font-weight: 500;
+}
